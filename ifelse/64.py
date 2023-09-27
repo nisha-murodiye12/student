@@ -1,0 +1,31 @@
+a=int(input("enter the number a:"))
+b=c=d=e=f=g=h=i=j=0
+if a>=2000:
+  b=a//2000
+  a=a%2000
+if a>=500:
+  c=a//500
+  a=a%500
+if a>=200:
+  d=a//200
+  a=a%200
+if a>=100:
+  e=a//100
+  a=a/100
+if a>=20:
+  f=a//20
+  a=a%20
+if a>=10:
+  g=a//10
+  a=a%10
+if a>=5:
+  h=a//5
+  a=a%5
+if a>=2:
+  i=a//2
+  a=a%2
+if a>=1:
+  j=a//1
+  a=a%1
+sum=b+c+d+e+f+g+h+i+j
+print(sum)
