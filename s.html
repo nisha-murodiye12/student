@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Bar - Easy Tutorials</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'poppins', sans-serif;
+        }
+
+        .container {
+            width: 100%;
+            min-height: 100vh;
+            padding: 5%;
+            background-image: url('/home/b139/Downloads/image.jpeg'); 
+            background-position: center;
+            background-size: cover;
+        }
+         input[type="text"] {
+           width: 600px; /* Width of the search bar */
+           height: 70px; /* Height of the search bar */
+        }
+
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 12px 20px; 
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            margin-top: 10px; 
+        }
+
+        #searchResults {
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <form>
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="searchResults">
+        <!-- Search results will be displayed here -->
+    </div>
+</div>
+
+</body>
+</html>
