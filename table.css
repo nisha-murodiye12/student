@@ -1,0 +1,28 @@
+body {
+    
+    background-image: url('/home/yogeshree/Documents/4.jpeg');
+    background-size: cover; 
+    background-position: center; 
+}
+table{
+    border: 20px solid;
+    border-color:white;
+    border: 10px dashed;
+    border-radius: 100px;
+    background-color:red;
+    text-align: center;
+    width: 800x;
+    height: 500px;
+    padding: 100px;
+}
+tr:nth-child(odd) {
+    background-color:pink;
+    color: solid blue;
+}
+tr:nth-child(even){
+    background-color:brown;
+}
+tr{
+    font-weight: bold;
+    font-size: 20px;
+}
