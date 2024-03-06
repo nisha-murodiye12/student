@@ -1,76 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <style>
+      
+      .container {
+         border: 10px solid black;
+         padding: 10px; 
+         background-color: aquamarine;
+      }
+
+      
+      .header {
+         border: 5px solid black;
+         height: 180px;
+         padding: 10px;
+         background-color: bisque;
+      }
+
+
+      .logo {
+         width: 100px; 
+         height: 100px; 
+      }
+
+      
+      .navbar {
+         font-size: 30px;
+         text-align: center;
+         margin-left:300px;
+         color:blue;
+         
+      }
+
+
+      .main {
+         display: flex;
+         margin-top: 10px; 
+      }
+
+      .section {
+         height:10px; 
+         margin-bottom: 10px; 
+      }
+
+      .button1{
+         margin-top: 320px;
+         height: 50px; 
+         width: 100px;
+         margin-bottom: 10px;
+         background-color: green;
+         font-size: 20px;
+      }
+      .button2{
+         height: 50px; 
+         width: 100px;
+         background-color:red; 
+         font-size: 20px;
+      }
+
+      .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        
+        .image {
+            width: 200px; 
+            height: 200px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-y: scroll;
+            border-radius: 60px;
+        }
+        .footer{
+         border: 5px solid black;
+         height: 30px;
+         float:right;
+         margin-top: 20px;
+        }
+   </style>
 </head>
-<style>
-     body{
-        margin: 0;
-        border: 2px solid;
-     }
-     .flew-box{
-        display:flex;
-        flex-direction:row;
-        flex-wrap: wrap-reverse;
-        justify-content:space-around;
-        align-items:baseline;
-
-    
-         
-
-         
-     }
-     .flew-item{
-        color: black;
-        font-size:30px;
-        padding: 3px;
-        text-align: center;
-     }
-     .item-1{
-        background-color:blueviolet ;
-     }
-     .item-2{
-        background-color: burlywood;
-     }
-    .item-3{
-        background-color: orangered;
-     }
-     .item-4{
-        background-color: orchid;
-     }
-     .item-5{
-        background-color: green;
-     }
-     .item-6{
-        background-color:greenyellow ;
-     }
-     .item-7{
-        background-color: pink;
-     }
-     .item-8{
-        background-color: yellowgreen;
-     }
-     .item-9{
-        background-color:red;
-     }
-     .item-10{
-        background-color: darkred;re
-     }
-</style>
 <body>
-    <div class="flew-box">
-        <div class="flew-item  item-1">item 1</div>
-        <div class="flew-item  item-2">item 2</div>
-        <div class="flew-item  item-3">item 3</div>
-        <div class="flew-item  item-4">item 4</div>
-        <div class="flew-item  item-5">item 5</div>
-        <div class="flew-item  item-6">item 6</div>
-        <div class="flew-item  item-7">item 7</div>
-        <div class="flew-item  item-8">item 8</div>
-        <div class="flew-item  item-9">item 9</div>
-        <div class="flew-item  item-10">item 10</div>
-    </div>
+   <div class="container">
+      <div class="header">
+         <div class="logo"><img src="/home/yogeshree/Documents/dog9.jpeg"></div>
+         <div class="navbar">“Dogs do speak, but only to those who know how to listen.”– ...“Dogs' lives are too short. ...
+            “Every dog must have his day."–</div>
+      </div>
+      <div class="main">
+         <div class="aside">
+            <div class="section"><iframe width="560" height="315" src="https://www.youtube.com/embed/4-NzBq6pPB4?si=Zlfkarsr92NiCqsu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+            <div class="button1">Watch Video</div>
+            <div class="button2">feel that song</div>
+         </div> 
+         <div class="gallery">
+            <div class="image"><img src="/home/yogeshree/Documents/html-project/images/dog1.jpeg"></div>
+            <div class="image"><img src="/home/yogeshree/Documents/html-project/images/dog2.jpeg"></div>
+            <div class="image"><img src="/home/yogeshree/Documents/html-project/images/dog3.jpeg"></div>
+            <div class="image"><img src="/home/yogeshree/Documents/dog6.jpeg"></div>
+            <div class="image"><img src="/home/yogeshree/Documents/dog5.jpeg"></div>
+         </div>
+      </div>
+      <div class="footer">Made by : Nisha Murodiye</div>
+   </div>
 </body>
 </html>

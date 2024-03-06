@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Instagram Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    border: 2px solid;
+    border-radius: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+    background-color: aqua;
+}
+
+.logo img {
+    height: 80px;
+}
+
+.search input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 200px;
+}
+
+.icons img {
+    height: 70px;
+    margin-left: 20px;
+    border-radius: 40%;
+    
+}
+
+.photo-grid {
+    grid-template-columns: repeat(3, 1fr);
+    height: 800px;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.photo {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 800px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    padding: 10px;
+    background-color: gray;
+    border-top: 1px solid #ddd;
+}
+.icon img{
+    height: 30px;
+    justify-content: space-between;
+    margin-right: 120px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="/home/yogeshree/Documents/1.jpeg" alt="Instagram Logo">
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="icons">
+                <img src="/home/yogeshree/Documents/dog9.jpeg" alt="Icon 1">
+                <img src="/home/yogeshree/Documents/dog8.jpeg" alt="Icon 2">
+                <img src="/home/yogeshree/Documents/dog7.jpeg" alt="Icon 3">
+            </div>
+        </header>
+        
+        <div class="photo-grid">
+            <!-- Place your photos here -->
+            <div class="photo"><img src="/home/yogeshree/Documents/dog5.jpeg" alt="Photo 1"></div>
+        </div>
+        
+        <footer class="icon">
+            <img src="/home/yogeshree/Documents/fil.png" alt="Icon 1">
+            <img src="/home/yogeshree/Documents/pluu.png" alt="Icon 2">
+            <img src="/home/yogeshree/Documents/home.png" alt="Icon 3"> 
+            <img src="/home/yogeshree/Documents/pro.png"  alt="Icon 1">
+            <img src="/home/yogeshree/Documents/se.png" alt="Icon 1">
+    
+         
+        </footer>
+    </div>
+</body>
+</html>
